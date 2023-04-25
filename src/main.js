@@ -1,0 +1,1 @@
+game.SetupBoard(15,15);
