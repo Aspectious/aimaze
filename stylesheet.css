@@ -4,6 +4,11 @@ td {
     height: 50px;
     text-align: center;
 }
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-style: groove;
+}
 .danger {
     background-color: red;
 }
@@ -12,4 +17,7 @@ td {
 }
 .finish {
     background-color: gold;
+}
+.player {
+    background-color: rgb(77, 108, 247);
 }

@@ -35,6 +35,7 @@ game.SetupBoard = function(cols, rows) {
             var cell = document.createElement("td");
             cell.id = `${i},${ii}`
 
+            if ((game.mouse.x == i) && (game.mouse.y == ii)) cell.classList.add("player");
             if ((game.cells.finish.x == i) && (game.cells.finish.y == ii)) cell.classList.add("finish");
             if (game.cells.danger.includes(`${i},${ii}`)) cell.classList.add("danger")
 
